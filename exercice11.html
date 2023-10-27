@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body >
+    <div style="position: fixed;
+                right: 0;
+                top: 0;
+                bottom: 0;
+                width: 200px;
+                background-color: rgba(32, 178, 171);
+                text-align: center;
+    ">
+        My flex 1
+    </div>
+
+    <div class="modal">
+        <div class="middle">
+            <div class="text">  this is an ad</div>
+            <button class="button">
+                click here
+            </button>
+        </div>
+    </div>
+   
+
+
+    <style>
+        .modal
+        {
+            position:absolute;
+            background-color: rgba(0, 0, 0, 0.769) ;
+            border: solid black 1px;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            left:0;
+            display: flex;
+            flex-direction: column;
+            justify-content:center;
+            align-items: center;
+            
+        }
+        .middle
+        {
+            background-color: white;
+            height: 150px;
+            width: 200px;
+            margin: 0 ;
+            border: solid black 1px; 
+            border-radius: 50px;
+            display: flex;
+            position: fixed;
+            flex-direction: column;
+            justify-content:center;
+
+        }
+
+
+
+        .text
+        {
+            color: black;
+            font-size: 25px;
+            text-decoration:wavy;
+            margin-bottom: 30px;
+            margin-left: 20px;
+        }
+        .button
+        {
+            border: none;
+            background-color: lightslategray;
+            width: 100px;
+            margin-left: 20px;
+        }
+
+    </style>
+
+</body>
+</html>
