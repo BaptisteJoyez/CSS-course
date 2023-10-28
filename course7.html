@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DisplayFlex</title>
+</head>
+<body>
+    <input class="searchbox" type="search" placeholder="Search"> 
+    <div class="video-preview">
+        <img src="picture file/IA.jpg" class="thumbnail">
+        <p class="video-title">
+            Talking tech and AI with Shoutout to Sundar!
+        </p>
+        <p class="video-auther">
+            Marques Browlee
+        </p>
+        <p class="video-stats">
+            3.4M views &#183; 6 months ago
+        </p>
+    </div>
+    <div class="video-preview">
+        <img src="picture file/téléchargement.jpg" class="thumbnail">
+        <p class="video-title">
+            Try not to laugh
+        </p>
+        <p class="video-auther">
+            Markipiler
+        </p>
+        <p class="video-stats">
+            9.1M views &#183; 4 years ago
+        </p>
+    </div>
+    <style>
+
+        .video-preview
+        {
+            vertical-align: top;
+            display: inline-block;   
+            margin-right: 10px;
+            width: 300px;
+        }
+        .thumbnail
+        {
+            width: 300px;
+            display: block;
+        }
+        .video-title{
+            width :300px;
+        }
+
+        p{
+        font-family: Arial ; 
+        margin-top: 0;
+        margin-bottom:0;
+        cursor: grab;
+        }
+        .video-stats
+        {
+            font-size: 14px;
+            color: rgb(96, 96, 96);
+            margin-bottom: 20px;
+        }
+        .video-auther{
+            font-size: 14px;
+            color: rgb(96, 96, 96);
+            margin-bottom: 20px;
+        }
+        .searchbox
+        {
+            display: block;
+            font-size: 20px;
+            margin-left: 12px;
+            border-radius: 10px;
+            border: none;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+        }
+
+
+    </style>
+</body>
+</html>

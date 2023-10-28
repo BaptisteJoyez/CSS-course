@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nested layout</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+<style>
+    .thumbail-row
+    {
+        margin-top: 10px ;
+    }
+    .chanel-picture
+    {
+        width: 50px;
+        vertical-align: top;
+    }
+    .profil-picture 
+    {
+        width: 40px;
+        border-radius: 50px;
+    }
+    .video-preview
+    {   
+        margin-right: 10px;
+    }
+    .thumbnail
+    {
+        width: 100%;
+    }
+    p{
+        font-family: 'Roboto', Arial;
+        margin-top: 0;
+        margin-bottom:0;
+        cursor: grab;
+    }
+    .video-title
+    {
+        font-size: 14px;
+        color: black;
+        margin-top: 0px;
+        margin-bottom: 10px;
+        font-weight: 700;
+        line-height: 20px;
+    }
+    .video-author,
+    .video-stats{
+        font-size: 12px;
+        color: rgb(96, 96, 96);
+        
+    }  
+    .video-author
+    {
+        margin-bottom: 4px;
+    }
+    .searchbox
+    {
+        display: block;
+        font-size: 20px;
+        margin-left: 12px;
+        border-radius: 10px;
+        border: none;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    }
+    .video-info-grid
+    {
+        display: grid;
+        grid-template-columns: 50px 1fr ;
+    }
+    .video-grid
+    {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 16px;
+        row-gap: 40px;
+    }
+    /*
+        https://supersimple.dev/exercises/youtube
+    */
+</style>
+</head>
+<body>
+    <input class="searchbox" type="search" placeholder="Search"> 
+    <br>
+    <br>
+    <br>
+    <br>
+
+<div class="video-grid">
+    <div class="video-preview">
+        <div><img src="picture file/IA.jpg" class="thumbnail"></div>
+        <div class="thumbail-row">
+            <div class="video-info-grid">
+                <div class="chanel-picture"> 
+                    <image class="profil-picture" src="picture file/channel-1.jpeg"></image>
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        Talking Tech and AI with Google CEO Sundar Pichai!
+                    </p>
+                    <p class="video-author">
+                        Marques Browlee
+                    </p>
+                    <p class="video-stats">
+                        3.4M views &#183; 6 months ago
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="video-preview">
+        <div><img src="picture file/téléchargement.jpg" class="thumbnail"></div>
+        
+        <div class="thumbail-row">
+            <div class="video-info-grid">
+                <div class="chanel-picture"> 
+                    <image class="profil-picture" src="picture file/channel-2.jpeg"></image>
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        Try not to laugh
+                    </p>
+                    <p class="video-author">
+                        Markipiler
+                    </p>
+                    <p class="video-stats">
+                        9.1M views &#183; 4 years ago
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="video-preview">
+        <div><img src="picture file/IA.jpg" class="thumbnail"></div>
+        <div class="thumbail-row">
+            <div class="video-info-grid">
+                <div class="chanel-picture"> 
+                    <image class="profil-picture" src="picture file/channel-1.jpeg"></image>
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        Talking Tech and AI with Google CEO Sundar Pichai!
+                    </p>
+                    <p class="video-author">
+                        Marques Browlee
+                    </p>
+                    <p class="video-stats">
+                        3.4M views &#183; 6 months ago
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="video-preview">
+        <div><img src="picture file/téléchargement.jpg" class="thumbnail"></div>
+        
+        <div class="thumbail-row">
+            <div class="video-info-grid">
+                <div class="chanel-picture"> 
+                    <image class="profil-picture" src="picture file/channel-2.jpeg"></image>
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        Try not to laugh
+                    </p>
+                    <p class="video-author">
+                        Markipiler
+                    </p>
+                    <p class="video-stats">
+                        9.1M views &#183; 4 years ago
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="video-preview">
+        <div><img src="picture file/IA.jpg" class="thumbnail"></div>
+        <div class="thumbail-row">
+            <div class="video-info-grid">
+                <div class="chanel-picture"> 
+                    <image class="profil-picture" src="picture file/channel-1.jpeg"></image>
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        Talking Tech and AI with Google CEO Sundar Pichai!
+                    </p>
+                    <p class="video-author">
+                        Marques Browlee
+                    </p>
+                    <p class="video-stats">
+                        3.4M views &#183; 6 months ago
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="video-preview">
+        <div><img src="picture file/téléchargement.jpg" class="thumbnail"></div>
+        
+        <div class="thumbail-row">
+            <div class="video-info-grid">
+                <div class="chanel-picture"> 
+                    <image class="profil-picture" src="picture file/channel-2.jpeg"></image>
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        Try not to laugh
+                    </p>
+                    <p class="video-author">
+                        Markipiler
+                    </p>
+                    <p class="video-stats">
+                        9.1M views &#183; 4 years ago
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
