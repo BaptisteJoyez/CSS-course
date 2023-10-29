@@ -1,0 +1,132 @@
+
+.header
+{
+    height: 55px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    background-color: #ffffff;
+    top: 0;
+    left: 0;
+    right:0;
+    border-bottom: solid lightgrey 1px;
+    z-index: 100;
+
+}
+.left-sect
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.menu-icon
+{
+    height: 20px;
+}
+.menu-hamburger
+{
+    height: 24px;
+    margin-left: 24px;
+    margin-right: 20px;
+}
+.middle-sect
+{
+    flex : 1;
+    margin-left: 60px;
+    margin-right: 35px;
+    max-width: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.searchbox
+{
+    flex:1;
+    height: 40px;
+    font-size: 16px;
+    border: solid 1px lightgrey;
+    border-radius: 2px;
+    box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.3);
+    width: 0;
+}
+
+.searchbox::placeholder
+{
+    font-family: Roboto, Arial;
+    font-size: 16px;
+    padding-left: 10px;
+}
+.search-buttom
+{
+    height: 40px;
+    width: 60px;
+    border: solid 1px lightgrey;  
+    margin-left: -1px;
+    margin-right: 10px;
+}
+.search-icon
+{
+    height: 25px;
+    margin-top: 4px;
+  
+}
+.voice-search
+{
+    height: 40px;
+    width: 40px;  
+    border: none;
+    border-radius: 20px;
+    background-color: lightgray;
+}
+.voice-icon
+{
+    height: 24px;
+    margin-top: 4px;
+}
+.right-sect
+{
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 20px;
+    flex-shrink: 0;
+}
+.app
+{
+    height: 24px;
+}
+.notification
+{
+    height: 24px;
+}
+.upload
+{
+    height: 24px;
+}
+.current-picture
+{
+    height: 32px;
+    border-radius: 16px;
+}
+.notification-container
+{
+    position: relative;
+}
+.notif-count
+{
+    position: absolute;
+    background-color: red;
+    font-family: Roboto, Arial;
+    color: white;
+    top: -2px;
+    right: -5px;
+    font-size: 11px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 10px;
+}
